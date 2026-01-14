@@ -49,3 +49,23 @@ body {
 .sketch-screen > div > * {
     flex: 1;
 }
+
+.clear-btn {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    font-family: monospace; 
+    font-size: 18px;
+    
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    align-self: center;
+}
+
+.clear-btn:hover {
+    background-color: black;
+    color: white;
+}
